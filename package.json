@@ -1,0 +1,19 @@
+{
+  "name": "animeparse",
+  "version": "1.0.0",
+  "description": "anime9 parser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.18.3"
+  },
+  "author": "themishkaCoder",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
