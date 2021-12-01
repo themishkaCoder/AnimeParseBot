@@ -1,7 +1,7 @@
 const axios = require("axios")
 const cheerio = require('cheerio');
 const TelegBot = require("node-telegram-bot-api")
-const token = '1139190379:AAG81mbmAXQSH_ejTocGh0TG9R3JwT8nmSA'
+const token = 'telegram token'
 let bot = new TelegBot(token, {polling: true})
 
 async function parsingProccesUniversal(animeTitle, typeAnime){
